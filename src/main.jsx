@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
         {
             path: "/",
-            element: <Home/>,
+            element: <Home1/>,
         },
         {
             path: "/login",
@@ -29,9 +29,9 @@ const router = createBrowserRouter([
             ),
         },
         {
-            path: "/for-business",
+            path: "/for-you",
             element: (
-                <Home1/>
+                <Home/>
             ),
         },
     ],
